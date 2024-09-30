@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="#7CF5FF"
+    android:padding="16dp"
+    tools:context=".ui.Products.AddProduct">
+
+    <!-- Product ID -->
+
+    <!-- Product Name -->
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:hint="Product ID"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp"
+        android:hint="Product Name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Cost -->
+    <EditText
+        android:id="@+id/costEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Cost"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <!-- Price -->
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <!-- Quantity -->
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Image Link -->
+    <EditText
+        android:id="@+id/imageLinkEditText"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp"
+        android:hint="Image Link"
+        android:inputType="textUri"
+        android:minHeight="48dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Save Product"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

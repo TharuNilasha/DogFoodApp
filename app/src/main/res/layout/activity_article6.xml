@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article6">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feeding an Inactive Dog"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_6"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Have you noticed that your dog's activity levels have decreased? This isn't a situation to ignore, since decreased activity can quickly lead to weight gain. The math is simple - a dog that takes in more calories than he burns will start to pack on the pounds."
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="While being overweight may not seem like a serious problem for dogs, it can lead to even less activity, and a wider range of health risks. \n\nEach dog is different based on breed, age, activity and level of health and may have different dietary needs, says CJ Bentley, a behaviorist at the Michigan Humane Society. So before you jumpstart the efforts to cut back, she suggests it's best to work with your veterinarian to determine if there's an underlying cause for the change in behavior." android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Common Causes"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Even though grain allergies are rare in dogs, you may feel more comfortable feeding grain-free food. This is a personal decision for every owner to make. There are some considerations you can take into account as you decide what to feed your dog." android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steps to Success"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you and your veterinarian determine weight gain is the cause of slowdown, you'll likely follow these four steps.\n\n * Cut back on treats and high-calorie snacks. Treats should not comprise more than 10% of the daily caloric intake.\n\n * Feed less of the animal's regular food. Measure and adhere to the feeding guidelines. In general, a pet should only lose about 1% of his weight each week for safety.\n\n * Increase the amount of exercise with an extra walk or more playtime each day.\n\n * Consider switching to a reduced-calorie food that will allow your dog to eat a filling meal, but still limit the calorie count." android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Value of Toys"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assuming there isn't a physical ailment preventing your dog from playtime, one way to get him to spark a little activity is to use an interactive feeding toy.\n\n * Dogs are foragers by nature, says Bentley. And those with a desire to eat can easily learn to do a little work for their food.\n\n * She says to consider trying high quality, safe toys including those that you can hide a treat or dry food inside of.\n\n * Try introducing one of these to your feeding routine. Then sit back and enjoy the show. " android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

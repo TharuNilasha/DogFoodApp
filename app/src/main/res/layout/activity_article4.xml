@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Is Real Meat Dog Food Made Of?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_4"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:text="Have you heard the buzz about dog food with meat as the first ingredient? In advertisements, on packaging and online, you’re likely to see dog food companies promote the amount of real meat in their products. But, what does “real meat” really mean? And should it be the first ingredient?"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="\n• First, let’s define the word “meat”. According to the Association of American Feed Control Officials (AAFCO), dog food “meat” consists primarily of muscle tissue from cows, pigs, sheep or goats. Non-mammals, such as poultry or fish, cannot be listed as “meat” on a label and must instead be defined specifically as poultry or fish, which may also include overlying fat, skin or other tissue. \n\n• When a dog food company uses the word “real” when describing their dog food meat, poultry or fish, they are referring to animal muscle tissue. In other words, it’s not a meat meal. The difference between meat and meat meal is moisture and fat. Meat, poultry or fish generally contain about 60-75% water, whereas meals contain about 10% moisture. To make a meat, poultry or fish meal, the meat, poultry or fish is rendered with heat and pressure to remove moisture and fat, leaving concentrated protein and minerals. Both meat and meat meals are excellent sources of protein and essential amino acids.\n\n• Now, take a look at a dog food label. The ingredients are listed in descending order by weight. So, if you see a dog food with real meat, poultry or fish as the first ingredient, it means that meat is the most abundant ingredient by weight, and it may be a good choice for your dog. Because meat’s water content does contribute to its weight, it’s beneficial for a dog food to contain additional sources of protein, such as meat meals. All Purina ONE® SmartBlend® Dry Dog Food formulas, for example, have real meat, poultry or fish as the first ingredient, plus other high-quality protein sources to help support strong muscles and healthy body function. \n\n• Meat-based dog food and dog food with meat as the main ingredient are important, but dogs are omnivores and can obtain nutrition from both plant and animal sources. Animal protein is one important part of complete and balanced nutrition. See your veterinarian to find out how much protein your dog needs, or if you have any questions about your dog’s diet." android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

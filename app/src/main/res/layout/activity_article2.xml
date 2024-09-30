@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are By-Products Bad for Dogs?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_2"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif-black"
+                android:text="By-Products and Your Dog’s Health"
+                android:textSize="20dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Providing your dog with a healthy diet is one of the most important things you can do for him. You can start by selecting a dog food that supplies him with the nutrients, including vitamins and energy he needs. Commercial dog foods that include healthy by-products offer your dog a complete and balanced source of energy and nutrition. By-products are the co-product of food ingredients, including portions of an animal that are less commonly used in the U.S. human food supply, but which can provide important nutritional benefits."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Healthy By-Products"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purina® dog food diets are formulated to provide complete and balanced nutrition. They contain nutritious high-quality by-product ingredients that contribute to nutritional value of a pet food. These nutritious sources can provide essential amino acids, calcium, and other important minerals and vitamins. Poultry by-product meal, for example, contains 60% to 70% protein and is highly digestible."
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecting High Quality By-Products"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The by-products we choose to use in Purina® dog foods meet the careful guidelines established by the Association of American Feed Control Officials (AAFCO) and they must meet our stringent criteria for nutrient content, production, and quality assurance. These valuable ingredients are sourced from non-rendered, clean parts derived from animals and poultry."
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

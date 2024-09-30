@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is Grain Bad for Dogs?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_1"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text=" * As a dog owner, you strive to provide the best for your pet, treating them as a member of the family. This also means you are consistently evaluating and seeking to add beneficial products and practices to your dog’s routine.  " android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text=" * A recent trend you may have become aware of is grain-free diets for dogs. Grains, once widely seen as good for dogs, have recently been called into question. Perhaps because gluten allergies and intolerance are on the rise for people, dog owners are now wondering if grains are bad for their dogs. But is this actually true? Veterinarian Dr. Kurt Venator helps explain."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are Grains Bad for Dogs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Unless your dog has a grain allergy, grains are not harmful. Dr. Venator explains that, “there’s a myth out there not supported by veterinary medicine that grains cause allergies. That is not the case. The reality is that true food allergies are extremely low in dogs and cats, and the offending substances usually are not grains.” In fact, grains are a good source of sub nutrients and are beneficial for most dogs. That means the chance of your dog having a grain allergy is small. Less than 1% of dogs are sensitive to grains and need to avoid consuming them in their food, while 99% of dogs are able to reap the nutritional benefits dog food with grain has.  " android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Even though grain allergies are rare in dogs, you may feel more comfortable feeding grain-free food. This is a personal decision for every owner to make. There are some considerations you can take into account as you decide what to feed your dog." android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Do Grains Benefit Dogs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Venator says, “Grains are actually an excellent nutrient source.” Grains are packed with nutrients and provide carbohydrate, fat, and antioxidants. That means, the grains in dog food can support healthy, skin, and hair, plus support healthy immune systems and more. Also, there are many different kinds of grain: wheat, barley, corn etc. Each has its own combination of nutrients, and many are easily digested by dogs. Dog foods containing grain balance the grain’s nutrients with nutrients provided by other ingredients to create a nutritionally complete dog food."
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are Dogs Carnivores?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you ever thought of your dog as a wolf? He isn’t. Really, dogs are not carnivores or just meat eaters. Dogs are omnivores. This means dogs can eat and digest meat as well as grains (i.e. starches). In fact, a recent study published in the journal Nature announced a discovery that explained dogs’ genetics and the implication it holds for their nutritional needs. Dogs have been omnivores for centuries and their bodies have evolved to easily digest starches."
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formulated as Complete and Balanced"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Together all ingredients should provide the recommended levels of protein, fat and essential nutrients in the appropriate ratios and concentrations."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

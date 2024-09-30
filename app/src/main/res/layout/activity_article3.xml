@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is Coconut Oil Good for Dogs?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_3"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:textSize="16dp"
+                android:text="Is coconut oil good for dogs? The answer is complicated. In humans, coconut oil is touted for its many health benefits, from repairing dry, damaged hair and skin, to boosting energy and improving metabolism."
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="The effects of coconut oil for dogs, however, have not been researched as thoroughly. What our experts do know, however, is the medium-chain triglycerides (MCTs) found in coconut oil are responsible for many of its health benefits, and these enhanced botanical oils do provide some benefits for senior dogs."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can Dogs Eat Coconut Oil?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Yes, dogs can eat coconut oil, but that doesn’t mean they should. It can add excess fat and calories to their diets without much benefit. So while it’s not likely to make your dog sick, he’s better off without it."
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• A better option is to select a specially formulated dog food containing enhanced botanical oils (a source of medium-chain triglycerides) for dogs, which promote alertness and mental sharpness in dogs 7 years or older."
+                android:justificationMode="inter_word"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are MCTs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Medium-chain triglycerides are fatty acids derived from vegetable oils like coconut or palm kernel.\n\n• The MCTs in palm kernel and coconut oil are digested rapidly and serve as a source of energy for the body and brain. These oils also contain longer-chain triglycerides, however, which take longer to metabolize and are stored as fat. \n\n\•Because store-bought coconut oil contains these longer-chain triglycerides and the MCT concentrations vary considerably from brand to brand, it’s unlikely you’ll reap all the touted benefits. Instead, you need a dog food with enhanced botanical oils, a source of MCTs" android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are there Benefits of Coconut Oil for Dogs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Because store-bought coconut oil varies in the concentration of MCTs and there hasn’t been sufficient research conducted, we can’t recommend it for your dog. Instead, stick to foods specially formulated for his needs."
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

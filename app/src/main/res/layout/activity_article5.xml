@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articles.Article5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title of the Article -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Is Chicken Meal in Dog Food?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Image 1 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_5"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16dp"
+                android:text="Chicken meal is rendered chicken meat that has been dried and ground up, and includes clean flesh, skin, and/or accompanying bone. But if you see a bag of dog food that proudly states it’s made with “Real Chicken,” it’s referring to a clean combination of chicken flesh and skin. "
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+            <!-- Second Paragraph -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Chicken meal does not contain feathers, heads, feet, or intestinal contents. Chicken meal is safe and nutritious for your dog!  "
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why Is Chicken Meal Used in Dog Food?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n• When we’re making pet food, we need a certain proportion of wet and dry ingredients and also need to balance the nutritional needs of pets, says Dr. RuthAnn Lobos, a Purina Veterinarian. By drying and grinding up the chicken, the end product is a concentrated, bioavailable protein source.\n\n• If we tried to use all chicken breasts for example, which are about 75% moisture, to make kibble, it would be way too watery and would not come out properly through the extrusion process, says Lobos."
+                android:justificationMode="inter_word"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nIs Chicken Meal Good for Dogs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes! There are plenty of nutritional benefits of chicken meal, which is why you’ll often find it in dog food. For starters, chicken meal is packed with protein, an essential nutrient that plays a role in everything from muscle growth to immune functions.\n\nChicken meal is also natural source of glucosamine, a building block of cartilage tissue. Glucosamine can help to maintain healthy joints, which can help your dog stay active for a long time to come, but be sure to choose a dog food with additional glucosamine beyond chicken meal." android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is Chicken Meal Safe for Dogs?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes! If your dog is eating food from a company that values safety and quality, you’ll never have to worry if chicken meal is bad for dogs. The chicken meal we use in some of our dog food is always carefully sourced, and it always meets our strict quality standards for pet food. "
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Is Chicken Meal Different From Chicken By-Products?"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="While chicken meal is the protein-packed dry and rendered clean flesh, skin, and/or accompanying bone, dog food with chicken by-products contain the nutrient-rich parts of a chicken that remain after meat is removed, such as the lungs, spleen, liver, and kidneys. "
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
